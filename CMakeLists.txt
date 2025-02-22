@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1.0)
+project(hello_qt)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Qt5 COMPONENTS Core REQUIRED)
+add_executable(hello main.cpp)
+target_link_libraries(hello Qt5::Core)
