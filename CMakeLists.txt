@@ -1,6 +1,16 @@
+# Root CMakeLists.txt
 cmake_minimum_required(VERSION 3.1.0)
-project(hello_qt)
+project(QtSkills)
+
+# Global settings
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_AUTOMOC ON)
+
+# Find Qt packages
 find_package(Qt5 COMPONENTS Core REQUIRED)
-add_executable(hello main.cpp)
-target_link_libraries(hello Qt5::Core)
+
+# Add subdirectories
+add_subdirectory(src/basic)
+add_subdirectory(src/timer)
+add_subdirectory(src/worker)
+add_subdirectory(src/data)
