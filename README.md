@@ -1,4 +1,4 @@
-# QtSkills - Learning Qt on Android/Termux
+# Qt Skills - Learning Qt on Android/Termux
 
 This project demonstrates basic Qt development on Android using Termux. It includes several examples progressing from basic concepts to more advanced features.
 
